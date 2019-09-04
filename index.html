@@ -2,6 +2,9 @@
 
 <html lang="en">
 <script src="scripts.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 <head>
   <meta charset="utf-8">
 
@@ -11,15 +14,26 @@
 </head>
 
 <body>
-<div id='main'>
-    
-        Enter Word: <input type="text" id="userInput"><br>
-        <button onclick="GetRhymingWords();">Submit!</button>
+  <div class="container">
+    <h1>Assignment 0 </h1>
+    <div id='main' class="card mx-auto">
 
-</div>
-<div id="responseDiv">
-    <p id="responseBody"></p>
-</div>
+      Enter Rhyming Word: <input type="text" id="rhymeUserInput"><br>
+      <button class="btn btn-primary" onclick="GetRhymingWords();">Submit!</button>
+
+    </div>
+    <br/>
+    <div id='main' class="card mx-auto mb-4">
+
+        Enter Name: <input type="text" id="nicknameUserInput"><br>
+        <button class="btn btn-primary" onclick="GetNickNames();">Submit!</button>
+  
+      </div>
+    <br/>
+    <div id="responseDiv">
+      <p id="responseBody"></p>
+    </div>
+  </div>
 </body>
-</html>
 
+</html>

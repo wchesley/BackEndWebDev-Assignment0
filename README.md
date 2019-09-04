@@ -6,3 +6,5 @@ Using HTML, CSS, and JavaScript, you'll use arrays and also generate an algorith
 You will build a simple form to take in this information and then show the result.  This is a review of CIDM1315-level material.
 
 Codepen I shared with you in class:  https://codepen.io/ahuimanu/pen/WNeONQV 
+
+Nickname API: https://www.programmableweb.com/api/friendlyrobot-nickname 
