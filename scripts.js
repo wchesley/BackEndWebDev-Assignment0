@@ -1,3 +1,6 @@
+//fetch API ref: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+//Rhyming API ref: https://www.datamuse.com/api/
+//Nickname API ref: http://friendlyrobot.fr/  && https://www.programmableweb.com/api/friendlyrobot-nickname
 function GetRhymingWords() {
     console.log("userInput value: " + document.getElementById("rhymeUserInput").value)
     var rhymeURL = "https://api.datamuse.com/words?rel_rhy=" + document.getElementById('rhymeUserInput').value
